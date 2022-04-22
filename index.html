@@ -2,64 +2,92 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-
     <link href="styles/index.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jua&family=Stylish&display=swap"
+      rel="stylesheet"
+    />
 
     <title>HTML & CSS Basics Summary</title>
   </head>
   <body>
     <header>
       <h1>HTML & CSS Basics Summary</h1>
-      <img src="images/html-css.png" />
+      <img src="images/html-css.png" alt="HTML5 & CSS logo" />
     </header>
+
     <main>
-      <h4>HTML Summary</h4>
+      <h2>HTML Summary</h2>
       <p>
         HTML (HyperText Markup Language) is used to define our page content,
         structure and meaning.<br />
-        you <span>don`t</span> use it for styling purposes. Use CSS for that
-        instead!
+        you <span id="highlight">don`t</span> use it for styling purposes. Use
+        CSS for that instead!
       </p>
-      <ul>
-        <li>HTML uses "elements" to describe (annotae) content</li>
+      <ul id="html-list">
+        <li class="extra-important">
+          HTML uses "elements" to describe (annotae) content
+        </li>
         <li>
           HTML elements typically have an opening tag, content and then a
           closing tag
         </li>
-        <li>You can also hvae void (empty) elements like images</li>
-        <li>you can aloso configure elements with attributes</li>
+        <li class="extra-important">
+          You can also hvae void (empty) elements like images
+        </li>
+        <li class="extra-important">
+          you can aloso configure elements with attributes
+        </li>
         <li>
           There`s a long list of available elements but you`ll gain experience
           over time, no worries
         </li>
         <p>
           Learn more about all available HTML elements on
-          <span id="highlight-box"> the MDN HTML elements reference </span>
+          <a
+            href="https://developer.mozilla.org/ko/docs/Web/HTML/Element"
+            id="highlight-box"
+            target="_blank"
+          >
+            the MDN HTML elements reference
+          </a>
         </p>
       </ul>
-      <h4>CSS Summary</h4>
+      <h2>CSS Summary</h2>
       <p>CSS (Cascading Style Sheets) is used for styling your page content</p>
-      <li>stlyes are assigned via property-value pairs</li>
-      <li>you can assing styles via the "style" attributes</li>
-      <li>
-        To avoid code duplication, you typically use global styles(e.g. via the
-        "style" element) instead
-      </li>
-      <li>
-        Alternatively, you can work with external stylesheet files which you
-        "link" to
-      </li>
-      <li>
-        When working with CSS, concepts like "inheritance", "specificity", and
-        the "box model" should be <br />understood
-      </li>
+      <ul id="css-list">
+        <li>stlyes are assigned via property-value pairs</li>
+        <li>you can assing styles via the "style" attributes</li>
+        <li class="extra-important">
+          To avoid code duplication, you typically use global styles(e.g. via
+          the "style" element) instead
+        </li>
+        <li>
+          Alternatively, you can work with external stylesheet files which you
+          "link" to
+        </li>
+        <li class="extra-important">
+          When working with CSS, concepts like "inheritance", "specificity", and
+          the "box model" should be understood
+        </li>
+      </ul>
       <p>
         Learn more about all available CSS properties and values on
-        <span id="highlight-box"> the MDN CSS property reference</span>
+        <a
+          href="https://developer.mozilla.org/ko/docs/Web/CSS/Reference"
+          id="highlight-box"
+          target="_blank"
+        >
+          the MDN CSS property reference</a
+        >
       </p>
     </main>
     <footer>
-      <a href="files/html-css-basics-summary.pdf"> Download PDF Summary</a>
+      <a href="files/html-css-basics-summary.pdf" target="_blank">
+        Download PDF Summary</a
+      >
       <p>(c) Academind GmbH</p>
     </footer>
   </body>

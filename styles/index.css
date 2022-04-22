@@ -1,47 +1,97 @@
-header h1 {
-  font-weight: bold;
-  font-size: 60px;
-  color: rgb(101, 34, 190);
-}
-
-img {
-  width: 400px;
-  margin-bottom: 50px;
+* {
+  font-family: "Jua", sans-serif;
 }
 
 body {
-  background-color: rgb(246, 209, 255);
-  height: 100%;
+  background-color: rgb(244, 234, 255);
+}
+
+header {
+  padding: 32px;
   text-align: center;
 }
 
-main {
-  width: 800px;
-  height: 500px;
-  margin: auto;
-  padding: 30px;
+header h1 {
+  font-size: 52px;
+  color: rgb(88, 49, 196);
 
-  background-color: rgb(143, 71, 237);
-  color: white;
+  margin-top: 20px auto;
 }
-span {
+
+header img {
+  width: 300px;
+  padding: 32px;
+}
+
+main {
+  width: 700px;
+
+  margin: 32px auto;
+  padding: 32px;
+
+  background-color: rgb(122, 74, 218);
+  border-radius: 10px;
+  color: rgb(248, 241, 255);
+}
+
+#highlight {
+  font-size: 24px;
   font-weight: bold;
 }
 
-main li {
-  color: rgb(250, 242, 137);
+main span {
+  font-weight: bold;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  margin: 14px 0;
+  padding-left: 10px;
+  border-left: 5px dashed transparent;
+}
+
+.extra-important {
+  color: rgb(255, 237, 177);
+  border-left: 5px dashed rgb(247, 209, 85);
 }
 
 #highlight-box {
-  background-color: tomato;
+  background-color: rgb(255, 237, 177);
+  color: rgb(36, 3, 102);
+  padding: 2px 6px;
+  border-radius: 4px;
+  text-decoration: none;
 }
 
-a {
+#highlight-box:hover,
+#highlight-box:active {
+  background-color: rgb(250, 201, 39);
+}
+
+footer {
+  text-align: center;
+}
+
+footer a {
   width: 100px;
   height: 100px;
 
   border-radius: 10px;
-  padding: 15px;
+  padding: 12px 20px;
   background-color: turquoise;
   text-decoration: none;
+}
+
+footer a:hover,
+footer a:active {
+  background-color: rgb(250, 201, 39);
+}
+
+footer p {
+  color: rgba(0, 0, 0, 0.3);
 }
