@@ -1,0 +1,47 @@
+header h1 {
+  font-weight: bold;
+  font-size: 60px;
+  color: rgb(101, 34, 190);
+}
+
+img {
+  width: 400px;
+  margin-bottom: 50px;
+}
+
+body {
+  background-color: rgb(246, 209, 255);
+  height: 100%;
+  text-align: center;
+}
+
+main {
+  width: 800px;
+  height: 500px;
+  margin: auto;
+  padding: 30px;
+
+  background-color: rgb(143, 71, 237);
+  color: white;
+}
+span {
+  font-weight: bold;
+}
+
+main li {
+  color: rgb(250, 242, 137);
+}
+
+#highlight-box {
+  background-color: tomato;
+}
+
+a {
+  width: 100px;
+  height: 100px;
+
+  border-radius: 10px;
+  padding: 15px;
+  background-color: turquoise;
+  text-decoration: none;
+}
